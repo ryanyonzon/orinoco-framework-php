@@ -1,6 +1,6 @@
 # Orinoco Framework
 
-[![Build Status](https://travis-ci.org/rawswift/orinoco-framework-php.svg?branch=master)](https://travis-ci.org/rawswift/orinoco-framework-php)
+[![Build Status](https://travis-ci.org/ryanyonzon/orinoco-framework-php.svg?branch=master)](https://travis-ci.org/ryanyonzon/orinoco-framework-php)
 
 A lightweight PHP framework.
 
@@ -76,7 +76,7 @@ Orinoco Framework requires PHP >= 5.4.0 version.
 1. Clone framework source:
 
         $ mkdir myapp
-        $ git clone git://github.com/rawswift/orinoco-framework-php.git myapp/
+        $ git clone git://github.com/ryanyonzon/orinoco-framework-php.git myapp/
 
 2. Setup (Nginx) virtual host: (remember to point `root` to `/path/to/myapp/app/www`)
 
