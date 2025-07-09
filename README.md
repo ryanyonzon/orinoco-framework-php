@@ -1,7 +1,5 @@
 # Orinoco Framework
 
-[![Build Status](https://travis-ci.org/ryanyonzon/orinoco-framework-php.svg?branch=master)](https://travis-ci.org/ryanyonzon/orinoco-framework-php)
-
 A lightweight PHP framework.
 
 ## Controller
