@@ -91,7 +91,8 @@ Orinoco Framework requires PHP >= 5.4.0 version.
                         break;
                 }
                 location ~ \.php$ {
-                        fastcgi_pass   127.0.0.1:9000;
+                        # fastcgi_pass   127.0.0.1:9000;
+                        fastcgi_pass   unix:/run/php/php-fpm.sock;
                         fastcgi_index  index.php;
                         fastcgi_intercept_errors on; # to support 404s for PHP files not found
                         fastcgi_param  SCRIPT_FILENAME $document_root$fastcgi_script_name;
